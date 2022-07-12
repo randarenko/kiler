@@ -34,6 +34,7 @@
 			this.miska = new System.Windows.Forms.Button();
 			this.polozhi = new System.Windows.Forms.ListView();
 			this.sterzhen = new System.Windows.Forms.Button();
+			this.dosviazi = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// bydloBliat
@@ -66,6 +67,7 @@
 			this.udar.TabIndex = 3;
 			this.udar.Text = "УДАР!";
 			this.udar.UseVisualStyleBackColor = true;
+			this.udar.Click += new System.EventHandler(this.udar_Click);
 			// 
 			// miska
 			// 
@@ -75,6 +77,7 @@
 			this.miska.TabIndex = 3;
 			this.miska.Text = "Миска риса";
 			this.miska.UseVisualStyleBackColor = true;
+			this.miska.Click += new System.EventHandler(this.miska_Click);
 			// 
 			// polozhi
 			// 
@@ -96,13 +99,27 @@
 			this.sterzhen.TabIndex = 3;
 			this.sterzhen.Text = "УДАР!";
 			this.sterzhen.UseVisualStyleBackColor = true;
+			this.sterzhen.Click += new System.EventHandler(this.sterzhen_Click);
+			// 
+			// dosviazi
+			// 
+			this.dosviazi.Location = new System.Drawing.Point(636, 560);
+			this.dosviazi.Name = "dosviazi";
+			this.dosviazi.Size = new System.Drawing.Size(75, 23);
+			this.dosviazi.TabIndex = 3;
+			this.dosviazi.Text = "Миска риса";
+			this.dosviazi.UseVisualStyleBackColor = true;
+			this.dosviazi.Click += new System.EventHandler(this.dosviazi_click);
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(874, 566);
+			this.BackgroundImage = global::kiler.Properties.Resources.photo_2022_01_11_20_09_03;
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.ClientSize = new System.Drawing.Size(874, 612);
 			this.Controls.Add(this.polozhi);
+			this.Controls.Add(this.dosviazi);
 			this.Controls.Add(this.miska);
 			this.Controls.Add(this.sterzhen);
 			this.Controls.Add(this.udar);
@@ -122,6 +139,7 @@
 		private System.Windows.Forms.Button miska;
 		private System.Windows.Forms.ListView polozhi;
 		private System.Windows.Forms.Button sterzhen;
+		private System.Windows.Forms.Button dosviazi;
 	}
 }
 

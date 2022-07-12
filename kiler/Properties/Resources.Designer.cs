@@ -63,6 +63,16 @@ namespace kiler.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap photo_2022_01_11_20_09_03 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2022-01-11_20-09-03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap xi {
             get {
                 object obj = ResourceManager.GetObject("xi", resourceCulture);
